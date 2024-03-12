@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/black1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    transition: background-image 0.3s;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.color-section{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 30px;
+    /* align-content: space-around; */
+    justify-content: center;
+}
+.color-section div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.color-section #green{
+    background-color: green;
+}
+.color-section #black{
+    background-color: black;
+}
+.color-section #red{
+    background-color: red;
+}
+.color-section #blue{
+    background-color: blue;
+}
+.contant{
+    /* text-align: center; */
+    margin: 2%;
+}
+.contant h2{
+    color: red;
+    font-size: 34px;
+}
+.contant h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -15px;
+}
+.contant p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+}
+.contant .btn{
+    display: flex;
+    width: 125px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 40px;
+    border-radius: 30px;
+    
+}
