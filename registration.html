@@ -13,9 +13,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $query);
 
     if ($result) {
-        echo "<script>alert('data inserted!');location.href='login.php';</script>";
+        echo "<script>alert('data inserted!');location.href='login.html';</script>";
     } else {
-        echo "<script>alert('data not inserted!');location.href='registration.php';</script>";
+        echo "<script>alert('data not inserted!');location.href='registration.html';</script>";
     }
 }
 
